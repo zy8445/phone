@@ -58,7 +58,7 @@ body{
 }
 /*大图*/
 .bigPic{
-	height: 2750px;
+	height: 2700px;
 	margin: 0 auto;
 	background: #ffffff;
 	align-content: space-between;
@@ -67,6 +67,17 @@ body{
 	padding-top: 20px;
 	margin-left: 2.5%;
 	width: 95%;
+}
+/*footer开始*/
+.footer{
+	height: 200px;
+	margin: 10px auto 30px;
+}
+.footer p{
+	line-height: 52px;
+	font-size: 1.7vw;
+	color: #999999;
+	text-align: center;
 }
 /*定位*/
 .dingwei{
