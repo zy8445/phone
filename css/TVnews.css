@@ -1,0 +1,132 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+body{
+	background: #eeeded;
+}
+.header,.luxury,.video,.footer,.pages,.dingwei{
+	width: 100%;
+	max-width: 640px;
+	min-width: 320px;
+}
+.header{
+	background: #f7f7f7;
+	height: 90px;
+	box-sizing: border-box;
+	margin:0 auto 20px;
+	border-bottom: 1px solid #cdcccc;
+	box-shadow: 0 2px 20px 2px;
+	display: flex;
+}
+.header p{
+	font-size: 2vw;
+	line-height: 90px;
+}
+.header p:nth-child(1){
+	margin-left: 3%;
+}
+.header p:nth-child(2){
+	margin-left: 27%;
+}
+/*家园美居*/
+.luxury,.footer,.pages,.dingwei{
+	margin: 0 auto;
+}
+.luxury ul{
+	width: 95%;
+	margin: 0 auto;
+	height: 126px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+.luxury ul li{
+	line-height: 80px;
+	height: 80px;
+	font-size: 1.5vw;
+	text-align: center;
+	width: 48%;
+	background: #ffffff;
+	color: #666666;
+}
+/*10个视频图*/
+.video{
+	margin: 0 auto;
+}
+.video img{
+	width: 100%;
+}
+.video ul{
+	height: 1500px;
+	display: flex;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-between;
+}
+.video li{
+	width: 47%;
+	
+}
+.video li p{
+	font-size: 1.5vw;
+	text-align: center;
+	color: #666666;
+	background: #ffffff;
+	height: 80px;
+	line-height: 80px;
+}
+.video li p:hover{
+	color: #00a7ff;
+}
+/*上一页 下一页*/
+.pages{
+	margin: 50px auto 0;
+}
+.pages ul{
+	margin: 0 auto 50px;
+	width: 50%;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+}
+.pages ul li{
+	width: 30%;
+	line-height: 50px;
+	background: #ffffff;
+	font-size: 1.6vw;
+	text-align: center;
+}
+/*footer开始*/
+.footer{
+	height: 200px;
+	margin: 10px auto 30px;
+}
+.footer p{
+	line-height: 52px;
+	font-size: 1.7vw;
+	color: #999999;
+	text-align: center;
+}
+/*定位*/
+.dingwei{
+	position: fixed;
+	left: 33.4%;
+	top: 765px;
+	margin: 0 auto;
+}
+.dingwei img{
+	width: 100%;
+}
+.dingwei ul{
+	height: 90px;
+	background: #082855;
+	display: flex;
+}
+.dingwei ul li{
+	width: 25%;
+}
+
