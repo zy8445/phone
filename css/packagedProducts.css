@@ -1,0 +1,89 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+body{
+	background: #eeeded;
+}
+.header,.luxury,.bigPic,.dingwei{
+	width: 100%;
+	max-width: 640px;
+	min-width: 320px;
+}
+.header{
+	background: #f7f7f7;
+	height: 90px;
+	box-sizing: border-box;
+	margin:0 auto 20px;
+	border-bottom: 1px solid #cdcccc;
+	box-shadow: 0 2px 20px 2px;
+	display: flex;
+}
+.header p{
+	font-size: 2vw;
+	line-height: 90px;
+}
+.header p:nth-child(1){
+	margin-left: 3%;
+}
+.header p:nth-child(2){
+	margin-left: 27%;
+}
+/*豪华拧包装*/
+.luxury{
+	margin: 0 auto 20px;
+}
+.luxury ul{
+	width: 95%;
+	margin: 0 auto;
+	height: 126px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+.luxury ul li{
+	line-height: 62px;
+	height: 62px;
+	font-size: 2vw;
+	text-align: center;
+	width: 48%;
+	background: #ffffff;
+	color: #666666;
+}
+.luxury ul li:nth-child(1){
+	background: #2987ff;
+	color: white;
+}
+/*大图*/
+.bigPic{
+	height: 2750px;
+	margin: 0 auto;
+	background: #ffffff;
+	align-content: space-between;
+}
+.bigPic img{
+	padding-top: 20px;
+	margin-left: 2.5%;
+	width: 95%;
+}
+/*定位*/
+.dingwei{
+	position: fixed;
+	left: 33.4%;
+	top: 765px;
+	margin: 0 auto;
+}
+.dingwei img{
+	width: 100%;
+}
+.dingwei ul{
+	height: 90px;
+	background: #082855;
+	display: flex;
+}
+.dingwei ul li{
+	width: 25%;
+}
+
