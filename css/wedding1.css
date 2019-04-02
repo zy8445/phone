@@ -1,0 +1,179 @@
+body{
+	background: #000000;
+}
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.logo,.header,.trun,.sea,.show,.show_bottom,.read,.customer,.bigPic,.internet,.Input,.getBaojia,.submit{
+	width: 100%;
+	max-width: 640px;
+	min-width: 320px;
+	background: #fff;
+	margin: 0 auto;
+	}
+.logo img{
+	margin-left: 20%;
+	width: 60%;
+}
+/*首页ul*/
+.header ul{
+	background: #ffffff;
+	display: flex;
+	height: 80px;
+	justify-content: space-around;
+} 
+.header ul li{
+	line-height: 80px;
+}
+.header ul li:nth-child(1){
+	box-sizing: border-box;
+	border-bottom: 5px solid #cdac5f;
+}
+.header ul li:nth-child(1) a{
+	color: #cdac5f;
+}
+.header ul a{
+	font-size: 1.8vw;
+	font-weight: 800;
+	color: black;
+	text-decoration: none;
+}
+/*类似轮播图*/
+.trun img{
+	width: 100%;
+}
+/*海南这个ul*/
+.sea{
+	/*margin: 40px auto;*/
+}
+.sea ul{
+	display: flex;
+	height: 300px;
+}
+.sea ul li{
+	position: relative;
+}
+.sea img{
+	width: 100%;
+}
+.sea p{
+	position: absolute;
+	left: 33px;
+	top: 168px;
+	font-size: 1.7vw;
+}
+.sea p:hover{
+	color: #cdaf5f;
+}
+/*作品展示图片*/
+.show{
+	height: 100px;
+	background: #ffffff;
+}
+/*作品展示下面*/
+.show_bottom ul{
+	display: flex;
+	flex-wrap: wrap;
+	height: 800px;
+	justify-content: space-around;
+}
+.show_bottom ul li{
+	width: 32%;
+	height: ;
+}
+.show_bottom ul li p:hover{
+	color: #cdac5f;
+}
+.show_bottom ul li img{
+	width: 100%;
+}
+.show_bottom ul li p{
+	font-size: 1.7vw;
+	text-align: center;
+	color: #666666;
+	line-height: 60px;
+}
+/*read开始*/
+.read ul{
+	height: 80px;
+	display: flex;
+	background: #efefef;
+}
+.read ul:hover{
+	background: blue;
+}
+.read ul li{
+	width: 32%;
+	text-align: center;
+	font-size: 1.5vw;
+	line-height: 80px;
+	color: #666666;
+}
+.read ul li:hover{
+	color: white;
+}
+/*每周访客*/
+.customer img{
+	width: 100%;
+}
+/*大图开始*/
+.bigPic ul li{
+	width: 100%;
+}
+.bigPic ul li:hover{
+	color: #cdac5f;
+}
+.bigPic ul li img{
+	width: 100%;
+}
+.bigPic ul li p:nth-child(2){
+	padding: 10px;
+	text-align: center;
+	font-size: 2vw;
+}
+.bigPic ul li p:nth-child(3){
+	text-align: center;
+	padding-bottom: 20px;
+}
+/*网络预约*/
+.internet img{
+	width: 100%;
+}
+/*两个输入框*/
+.Input ul li{
+	width: 100%;
+	box-sizing: border-box;
+	/*background: #f9f9f9;*/
+	/*background: pink;*/
+}
+.Input ul li input{
+	width: 96%;
+	font-size: 2vw;
+	padding-left: 10%;
+	padding: 15px;
+	background: #f9f9f9;
+	margin-bottom: 10px;
+	border: 1px solid #dddddd;
+	color: #666666;
+}
+.getBaojia{
+	background: #ff4d4d;
+	border-bottom: 2px solid #898989;
+}
+.getBaojia p{
+	font-size: 2.5vw;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+.getBaojia p:hover{
+	background: #715a31;
+}
+.submit p{
+	font-size: 1.8vw;
+	color: #666666;
+	text-align: center;
+	padding:30px;
+}
