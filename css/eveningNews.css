@@ -13,7 +13,6 @@ body{
 }
 .header{
 	background: #f7f7f7;
-	height: 90px;
 	box-sizing: border-box;
 	margin:0 auto 20px;
 	border-bottom: 1px solid #cdcccc;
@@ -22,7 +21,7 @@ body{
 }
 .header p{
 	font-size: 2vw;
-	line-height: 90px;
+	padding: 20px 0;
 }
 .header p:nth-child(1){
 	margin-left: 3%;
@@ -32,20 +31,17 @@ body{
 }
 /*贵阳晚报*/
 .luxury{
-	margin: 0 auto -40px;
+	margin: 0 auto;
 }
 .luxury ul{
 	width: 95%;
 	margin: 0 auto;
-	height: 126px;
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	align-content: space-between;
 }
 .luxury ul li{
-	line-height: 80px;
-	height: 80px;
+	padding: 20px 0;
 	font-size: 2vw;
 	text-align: center;
 	width: 48%;
@@ -54,14 +50,12 @@ body{
 }
 /*庆祝毕节分公司盛大开业*/
 .company{
-	margin: -20px auto;
+	margin: 10px auto;
 	background: #ffffff;
 }
 .company ul li{
-	height: 70px;
-	/*background: pink;*/
 	margin-top: 10px;
-	line-height: 70px;
+	padding: 20px 0;
 	border-bottom: 1px dashed #dddddd;
 }
 .company ul li a{
@@ -77,29 +71,29 @@ body{
 }
 /*上一页 下一页*/
 .pages{
-	margin: 50px auto 0;
+	margin:0 auto;
 }
 .pages ul{
-	margin: 0 auto 50px;
+	margin:0 auto;
 	width: 50%;
-	height: 50px;
+	/*height: 50px;*/
 	display: flex;
 	justify-content: space-around;
 }
 .pages ul li{
-	width: 30%;
-	line-height: 50px;
+	padding: 15px 0;
+	width: 45%;
 	background: #ffffff;
 	font-size: 1.6vw;
 	text-align: center;
 }
 /*footer开始*/
 .footer{
-	height: 200px;
+	padding-bottom: 110px;
+	padding-top: 10px;
 	margin: 10px auto 30px;
 }
 .footer p{
-	line-height: 52px;
 	font-size: 1.7vw;
 	color: #999999;
 	text-align: center;
@@ -108,7 +102,7 @@ body{
 .dingwei{
 	position: fixed;
 	left: 33.4%;
-	top: 765px;
+	top: 855px;
 	margin: 0 auto;
 }
 .dingwei img{

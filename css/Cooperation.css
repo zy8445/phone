@@ -1,27 +1,28 @@
+body{
+	background: #eeeded;
+}
 *{
 	padding: 0;
 	margin: 0;
 	list-style: none;
 }
-body{
-	background: #eeeded;
-}
-.header,.luxury,.video,.footer,.pages,.dingwei{
+.header,.luxury,.logo,.footer,.dingwei{
 	width: 100%;
 	max-width: 640px;
 	min-width: 320px;
-	margin: 0 auto;
 }
 .header{
 	background: #f7f7f7;
 	box-sizing: border-box;
+	margin:0 auto 20px;
 	border-bottom: 1px solid #cdcccc;
 	box-shadow: 0 2px 20px 2px;
 	display: flex;
 }
 .header p{
 	font-size: 2vw;
-	padding: 20px 0;
+	padding: 20px;
+	/*line-height: 110px;*/
 }
 .header p:nth-child(1){
 	margin-left: 3%;
@@ -30,69 +31,50 @@ body{
 	margin-left: 27%;
 }
 /*家园美居*/
+.luxury,.footer,.pages,.dingwei,.logo{
+	margin: 0 auto;
+}
 .luxury ul{
 	width: 95%;
-	margin: 10px auto;
+	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	align-content: space-between;
 }
+
 .luxury ul li{
-	font-size: 1.5vw;
+	padding: 20px 0;
+	font-size: 1.7vw;
 	text-align: center;
 	width: 48%;
-	padding: 20px 0;
 	background: #ffffff;
 	color: #666666;
+	margin-bottom: 5px;
 }
-/*10个视频图*/
-.video{
-	margin: 0 auto;
+.luxury ul li:nth-child(4){
+	background: #2987ff;
 }
-.video img{
-	width: 100%;
-}
-.video ul{
+/*各个图标*/
+.logo ul{
 	display: flex;
-	margin: 0 auto;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	border-top: 3px solid #cdcccc;
 }
-.video li{
-	width: 47%;
-	margin-bottom: 10px;
+.logo ul li{
+	width: 32.3%;
 }
-.video li p{
-	font-size: 1.5vw;
-	text-align: center;
-	color: #666666;
-	background: #ffffff;
-	padding: 20px 0;
-}
-.video li p:hover{
-	color: #00a7ff;
-}
-/*上一页 下一页*/
-.pages ul{
-	margin: 0 auto;
-	width: 50%;
-	/*height: 50px;*/
-	display: flex;
-	justify-content: space-around;
-}
-.pages ul li{
-	width: 35%;
-	padding: 15px 0;
-	background: #ffffff;
-	font-size: 1.6vw;
-	text-align: center;
+.logo ul li img{
+	width: 100%;
 }
 /*footer开始*/
 .footer{
-	margin: 10px auto 30px;
+	height: 200px;
+	margin: 30px auto 50px;
 }
 .footer p{
-	/*line-height: 52px;*/
+	line-height: 52px;
 	font-size: 1.7vw;
 	color: #999999;
 	text-align: center;
@@ -101,7 +83,7 @@ body{
 .dingwei{
 	position: fixed;
 	left: 33.4%;
-	top: 850px;
+	top: 835px;
 	margin: 0 auto;
 }
 .dingwei img{
