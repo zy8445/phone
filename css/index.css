@@ -7,6 +7,12 @@ body{
 	padding:0;
 	list-style:none;
 }
+.box{
+	margin: 0 auto;
+	width:100%;
+	overflow:auto;
+	font-size: 50px;
+}
 .container,.lunbo,.type,.oneStop,.luxury,.computer,.show,.assign,.knowledge,.home,.footer,.dingwei{
 	width: 100%;
 	max-width: 640px;
@@ -199,13 +205,14 @@ body{
 }
 .home ul li{
 	display: flex;
-	padding: 15px;
+	margin-bottom: 10px;
+	line-height: 60px;
 }
 .home ul li b{
 	margin-right: 4%;
 }
 .home ul li a{
-	font-size: 1.7vw;
+	font-size: 1.5vw;
 	color: #999999;
 	text-decoration: none;
 }
@@ -214,7 +221,7 @@ body{
 }
 /*footer开始*/
 .footer{
-	padding-bottom: 140px;
+	padding-bottom: 70px;
 	padding-top: 20px
 }
 .footer p{
@@ -225,12 +232,13 @@ body{
 }
 /*定位部分*/
 .dingwei{
-	position: fixed;
-	left: 33.4%;
-	top: 89%;
+	margin: 0 auto;
+	/*position: fixed;*/
+	/*left: 33.4%;*/
+	/*top: 89%;*/
 }
 .dingwei ul{
-	height: 90px;
+	/*height: 90px;*/
 	background: #082855;
 	display: flex;
 }

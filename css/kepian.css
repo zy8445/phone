@@ -1,28 +1,26 @@
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
 body{
 	background: #000000;
 }
-*{
-	padding: 0;
-	margin: 0;
-	list-style: none;
+img{
+	width: 100%;
+	display: block;
 }
-.header,.trun,.sea,.show,.show_bottom,.read,.customer,.bigPic,.internet,.Input,.getBaojia,.submit,.footer{
+/*大容器*/
+.container{
 	width: 100%;
+	margin: 0 auto;
 	max-width: 640px;
 	min-width: 320px;
-	background: #fff;
-	margin: 0 auto;
-	}
-.logo{
-	width: 100%;
-	max-width: 640px;
-	min-width: 320px;
-	/*background: #fff;*/
-	margin: 0 auto;
 }
 .logo img{
 	margin-left: 20%;
 	width: 60%;
+	
 }
 /*首页ul*/
 .header ul{
@@ -34,11 +32,11 @@ body{
 .header ul li{
 	line-height: 80px;
 }
-.header ul li:nth-child(1){
+.header ul li:nth-child(3){
 	box-sizing: border-box;
 	border-bottom: 5px solid #cdac5f;
 }
-.header ul li:nth-child(1) a{
+.header ul li:nth-child(3) a{
 	color: #cdac5f;
 }
 .header ul a{
@@ -47,111 +45,107 @@ body{
 	color: black;
 	text-decoration: none;
 }
-/*类似轮播图*/
-.trun img{
-	width: 100%;
-}
-/*海南这个ul*/
-.sea ul{
-	display: flex;
-}
-.sea ul li{
-	position: relative;
-	padding: 30px 0;
-}
-.sea img{
-	width: 100%;
-}
-.sea p{
-	position: absolute;
-	left: 20%;
-	top: 69%;
-	font-size: 1.7vw;
-}
-.sea p:hover{
-	color: #cdaf5f;
-}
 /*作品展示图片*/
 .show{
 	background: #ffffff;
-	padding: 20px 0;
+	padding: 30px 0 10px;
 }
 .show img{
 	width: 100%;
 }
-/*作品展示下面*/
-.show_bottom ul{
+/*海南客照*/
+.HainanVisitors ul{
 	display: flex;
 	flex-wrap: wrap;
-	/*height: 800px;*/
+	background: #eeeeee;
 	justify-content: space-around;
 }
-.show_bottom ul li{
-	width: 32%;
-	/*height: ;*/
-	padding: 10px 0;
-}
-.show_bottom ul li p:hover{
-	color: #cdac5f;
-}
-.show_bottom ul li img{
-	width: 100%;
-}
-.show_bottom ul li p{
-	font-size: 1.7vw;
+.HainanVisitors ul li{
 	text-align: center;
-	color: #666666;
-	line-height: 60px;
-}
-/*read开始*/
-.read ul{
-	display: flex;
-	background: #efefef;
-}
-.read ul:hover{
-	background: blue;
-}
-.read ul li{
-	width: 32%;
-	text-align: center;
+	width: 20%;
+	padding: 20px 1%;
 	font-size: 1.5vw;
-	padding: 30px 0;
+}
+.HainanVisitors ul b{
+	margin-top: 4%;
+	color: #cccccc;
+}
+.HainanVisitors ul li a{
+	color: #000000;
+	opacity: 0.8;
+	
+	text-decoration: none;
+}
+.HainanVisitors ul li a:hover{
+	color: #dec794;
+}
+/*仙侠奇缘开始*/
+.ManyPictures ul{
+	background: #ffffff;
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 20px;
+	justify-content: space-around;
+}
+.ManyPictures ul li{
+	width: 32%;
+	background: #ffffff;
+}
+.ManyPictures ul li i{
+	color: #dddddd;
+	font-size: 0.9vw;
+}
+.ManyPictures ul li i:nth-child(4){
+	padding-left: 15%;
+}
+.ManyPictures ul li p{
+	font-size: 1.7vw;
+	padding: 10px 0;
+	text-align: center;
+}
+.ManyPictures ul li p:hover{
+	color: #cdac60;
+}
+.ManyPictures ul li img{
+	width: 100%;
+	padding: 20px 0;
+}
+/*第几页那部分*/
+.pages ul{
+	display: flex;
+	background: #ffffff;
+	padding: 40px 0;
+	text-align: center;
+	padding-left: 35%;
+}
+.pages ul li{
+	color: #666666;
+	padding-right: 5px;
+}
+.pages ul li a{
 	color: #666666;
 }
-.read ul li:hover{
-	color: white;
-}
-/*每周访客*/
-.customer img{
-	padding: 30px 0;
-	width: 100%;
-}
-/*大图开始*/
-.bigPic ul li{
-	width: 100%;
-}
-.bigPic ul li:hover{
-	color: #cdac5f;
-}
-.bigPic ul li img{
-	width: 100%;
-}
-.bigPic ul li p:nth-child(2){
-	padding: 10px;
-	text-align: center;
-	font-size: 2vw;
-}
-.bigPic ul li p:nth-child(3){
-	text-align: center;
-	padding-bottom: 20px;
+.pages ul li a:hover{
+	background: #cdad5e;
 }
 /*网络预约*/
+.internet{
+	background: #ffffff;
+}
 .internet img{
-	width: 100%;
+	width: 90%;
+	padding-left: 5%;
 }
 /*两个输入框*/
+.Input{
+	background: #ffffff;
+}
+.Input ul{
+	padding-top: 20px;
+}
 .Input ul li{
-	width: 100%;
+	padding-left: 2%;
+	width: 95%;
 	box-sizing: border-box;
 }
 .Input ul li input{
@@ -165,22 +159,26 @@ body{
 	color: #666666;
 }
 .getBaojia{
+	box-sizing: border-box;
+	width: 100%;
 	background: #ff4d4d;
+	border: 1px solid #dddddd;
 	border-bottom: 2px solid #898989;
 }
 .getBaojia p{
 	font-size: 2.5vw;
 	color: white;
 	text-align: center;
-	padding: 20px;
+	padding: 20px 0;
 }
 .getBaojia p:hover{
 	background: #715a31;
 }
 .submit p{
+	background: #ffffff;
 	font-size: 1.8vw;
 	color: #666666;
-	padding: 30px 0 50px;
+	padding: 30px 0 70px;
 	text-align: center;
 }
 /*footer开始*/
