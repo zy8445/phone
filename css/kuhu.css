@@ -125,10 +125,18 @@ img{
 	padding: 10% 30% 2%;
 }
 /*请留下你的电话号码*/
+.keep{
+	margin: 20px 0 0;
+	background: url(../img/4-9.png) no-repeat;
+	background-size: 100% 100%;
+	/*position: relative;*/
+}
 .keep p{
 	display: flex;
 	position: relative;
-	
+	width: 90%;
+	margin: 0 auto;
+	padding: 25px 0;
 }
 .keep p input{
 	padding: 10px 0;
@@ -140,10 +148,11 @@ img{
 .keep p span{
 	position: absolute;
 	left: 70%;
-	top: 1%;
-	width: 30%;
+	top: 30%;
+	width: 29%;
+	height: 20px;
 	display: inline-block;
-	background: brown;
+	background: #1470cd;
 	border-radius: 30px;
 	padding: 10px 0;
 	text-align: center;
@@ -154,19 +163,43 @@ img{
 }
 .keep div dl{
 	width: 32%;
-	background: red;
+	/*background: red;*/
 }
 .keep div dl dt{
 	text-align: center;
 	font-size: 1.3vw;
 	font-weight: bold;
-	/*color: white;*/
+	color: white;
 	padding: 15px 0;
 }
 .keep div dl dd{
-	/*font-weight: bold;*/
-	font-size: 0.5vw;
-	/*color: white;*/
+	font-size: 0.6vw;
+	color: white;
 	text-align: center;
 	padding: 5px 0;
+}
+/*版权部分开始*/
+.banquan{
+	background: #000000;
+}
+.banquan ul li{
+	color: white;
+	text-align: center;
+	padding: 10px 0;
+}
+.banquan ul li:last-child{
+	padding-bottom: 40px;
+}
+/*footer开始*/
+.footer{
+	background: #1473cc;
+}
+.footer ul{
+	display: flex;
+	justify-content: space-around;
+	padding: 20px 0 10px;
+}
+.footer ul span{
+	font-size: 1.9vw;
+	color: white;
 }
