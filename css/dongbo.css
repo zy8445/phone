@@ -1,0 +1,129 @@
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+body{
+	background: #ffffff;
+}
+img{
+	width: 100%;
+	display: block;
+}
+/*大容器*/
+.container{
+	width: 100%;
+	margin: 0 auto;
+	max-width: 640px;
+	min-width: 320px;
+}
+.header{
+	width: 100%;
+	max-width: 640px;
+	min-width: 320px;
+	margin: 0 auto;
+}
+.header{
+	background: #f7f7f7;
+	box-sizing: border-box;
+	border-bottom: 1px solid #cdcccc;
+	box-shadow: 0 2px 20px 2px;
+	display: flex;
+}
+.header p{
+	font-size: 2vw;
+	padding: 20px 0;
+}
+.header p:nth-child(1){
+	margin-left: 3%;
+}
+.header p:nth-child(2){
+	margin-left: 27%;
+}
+.donglibo{
+	margin: 20px 0 0;
+}
+.getBaojia{
+	margin: 10px auto;
+}
+.getBaojia p{
+	width: 80%;
+	margin: 0 auto;
+	font-size: 2.5vw;
+	color: white;
+	text-align: center;
+	padding: 15px 0;
+	background: #0099ff;
+}
+.getBaojia p:hover{
+	background: #082854;
+}
+/*设计理念开始*/
+.design{
+	margin: 20px 0 0;
+}
+.design li{
+	font-size: 1.4vw;
+	color: #666666;
+	padding: 15px 0;
+}
+.design li:last-child{
+	margin: 10px auto;
+	/*background: red;*/
+}
+/*10个视频图*/
+.video{
+	margin: 0 auto;
+}
+.video img{
+	width: 100%;
+}
+.video ul{
+	display: flex;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.video li{
+	width: 47%;
+	margin-bottom: 10px;
+}
+.video li p{
+	font-size: 1.5vw;
+	text-align: center;
+	color: #666666;
+	background: #ffffff;
+	padding: 20px 0;
+}
+.video li p:hover{
+	color: #00a7ff;
+}
+/*footer开始*/
+.footer{
+	margin: 10px auto 30px;
+	padding: 10px 0 120px;
+}
+.footer p{
+	/*line-height: 52px;*/
+	font-size: 1.7vw;
+	color: #999999;
+	text-align: center;
+}
+/*定位*/
+.dingwei{
+	position: fixed;
+	left: 33.4%;
+	top: 780px;
+	margin: 0 auto;
+}
+.dingwei img{
+	width: 100%;
+}
+.dingwei ul{
+	/*height: 90px;*/
+	background: #082855;
+	display: flex;
+}
+.dingwei ul li{
+	width: 25%;
+}
