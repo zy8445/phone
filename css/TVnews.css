@@ -90,18 +90,19 @@ body{
 /*footer开始*/
 .footer{
 	margin: 10px auto 30px;
+	padding-bottom: 80px;
 }
 .footer p{
-	/*line-height: 52px;*/
 	font-size: 1.7vw;
 	color: #999999;
 	text-align: center;
+	
 }
 /*定位*/
 .dingwei{
 	position: fixed;
 	left: 33.4%;
-	top: 850px;
+	bottom: 0;
 	margin: 0 auto;
 }
 .dingwei img{
@@ -115,4 +116,13 @@ body{
 .dingwei ul li{
 	width: 25%;
 }
+@media screen and (max-width:639px){
+	.dingwei{
+	position: fixed;
+	left: 0;
+	z-index:40;
+	bottom:20px;
+}
+}
+
 

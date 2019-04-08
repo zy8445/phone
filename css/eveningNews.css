@@ -91,7 +91,7 @@ body{
 .footer{
 	padding-bottom: 110px;
 	padding-top: 10px;
-	margin: 10px auto 30px;
+	margin: 10px auto 100px;
 }
 .footer p{
 	font-size: 1.7vw;
@@ -102,7 +102,7 @@ body{
 .dingwei{
 	position: fixed;
 	left: 33.4%;
-	top: 855px;
+	bottom: 20px;
 	margin: 0 auto;
 }
 .dingwei img{
@@ -116,4 +116,11 @@ body{
 .dingwei ul li{
 	width: 25%;
 }
-
+@media screen and (max-width:639px){
+	.dingwei{
+	position: fixed;
+	left: 0;
+	z-index:40;
+	bottom:90px;
+}
+}

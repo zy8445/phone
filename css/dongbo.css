@@ -104,7 +104,6 @@ img{
 	padding: 10px 0 120px;
 }
 .footer p{
-	/*line-height: 52px;*/
 	font-size: 1.7vw;
 	color: #999999;
 	text-align: center;
@@ -113,17 +112,24 @@ img{
 .dingwei{
 	position: fixed;
 	left: 33.4%;
-	top: 780px;
+	bottom: 0;
 	margin: 0 auto;
 }
 .dingwei img{
 	width: 100%;
 }
 .dingwei ul{
-	/*height: 90px;*/
 	background: #082855;
 	display: flex;
 }
 .dingwei ul li{
 	width: 25%;
+}
+@media screen and (max-width:639px){
+	.dingwei{
+	position: fixed;
+	left: 0;
+	z-index:40;
+	bottom:90px;
+}
 }

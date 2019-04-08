@@ -7,19 +7,14 @@ body{
 	padding:0;
 	list-style:none;
 }
-.box{
-	margin: 0 auto;
-	width:100%;
-	overflow:auto;
-	font-size: 50px;
-}
-.container,.lunbo,.type,.oneStop,.luxury,.computer,.show,.assign,.knowledge,.home,.footer,.dingwei{
+.container1{
 	width: 100%;
-	max-width: 640px;
+	max-width: 660px;
 	min-width: 320px;
 	margin: 0 auto;
+	position: relative;
 }
-.container img,.lunbo img,.type img,.oneStop img,.luxury img,.show img,.assign img,.knowledge img{
+.container1 img{
 	width:100%;
 	display: block;
 }
@@ -96,8 +91,6 @@ body{
 }
 /*输入框部分*/
 .shuru{
-	max-width: 640px;
-	min-width: 320px;
 	margin: 10px auto;
 }
 .shuru ul{
@@ -106,7 +99,6 @@ body{
 }
 .shuru ul li input{
 	box-sizing: border-box;
-	/*height: 70px;*/
 	width: 100%;
 	padding: 20px;
 	margin-bottom: 10px;
@@ -127,9 +119,6 @@ body{
 	color: #666666;
 	box-sizing: border-box;
 	padding: 20px;
-}
-.shuru ul li:nth-child(5) p span,.shuru ul li:nth-child(6) p span{
-	margin-left: 10%;
 }
 /*免费申请*/
 .application{
@@ -206,7 +195,7 @@ body{
 .home ul li{
 	display: flex;
 	margin-bottom: 10px;
-	line-height: 60px;
+	padding: 14px 0;
 }
 .home ul li b{
 	margin-right: 4%;
@@ -221,7 +210,7 @@ body{
 }
 /*footer开始*/
 .footer{
-	padding-bottom: 70px;
+	padding-bottom: 200px;
 	padding-top: 20px
 }
 .footer p{
@@ -233,15 +222,22 @@ body{
 /*定位部分*/
 .dingwei{
 	margin: 0 auto;
-	/*position: fixed;*/
-	/*left: 33.4%;*/
-	/*top: 89%;*/
+	position: fixed;
+	left: 34%;
+	bottom:0;
 }
 .dingwei ul{
-	/*height: 90px;*/
 	background: #082855;
 	display: flex;
 }
 .dingwei ul li{
 	width: 25%;
+}
+@media screen and (max-width:639px){
+	.dingwei{
+	position: fixed;
+	left: 0;
+	z-index:40;
+	bottom:90px;
+}
 }

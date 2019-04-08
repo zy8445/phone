@@ -71,7 +71,7 @@ body{
 /*footer开始*/
 .footer{
 	height: 200px;
-	margin: 30px auto 50px;
+	margin: 30px auto 80px;
 }
 .footer p{
 	line-height: 52px;
@@ -83,7 +83,7 @@ body{
 .dingwei{
 	position: fixed;
 	left: 33.4%;
-	top: 835px;
+	bottom: 20px;
 	margin: 0 auto;
 }
 .dingwei img{
@@ -98,3 +98,11 @@ body{
 	width: 25%;
 }
 
+@media screen and (max-width:639px){
+	.dingwei{
+	position: fixed;
+	left: 0;
+	z-index:40;
+	bottom:90px;
+}
+}
