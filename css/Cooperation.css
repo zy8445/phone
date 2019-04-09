@@ -67,6 +67,10 @@ body{
 }
 .logo ul li img{
 	width: 100%;
+	transition: 1s;
+}
+.logo ul li img:hover{
+	transform: rotate(360deg);
 }
 /*footer开始*/
 .footer{

@@ -4,7 +4,7 @@
 	list-style:none;
 }
 body{
-	background: #ffffff;
+	background: #efeded;
 }
 img{
 	width: 100%;
@@ -16,6 +16,7 @@ img{
 	margin: 0 auto;
 	max-width: 640px;
 	min-width: 320px;
+	background: #ffffff;
 }
 .logo img{
 	width: 100%;
@@ -41,6 +42,11 @@ img{
 	padding-left: 27%;
 	width: 60px;
 	height: 60px;
+}
+.internet ul li img:hover{
+	transform: rotateX(360deg);
+	transition: all 1.1s;
+	
 }
 /*输入框这部分*/
 .input2{
@@ -85,9 +91,14 @@ img{
 .moveBottom ul li{
 	width: 47%;
 	padding-bottom: 50px;
+	overflow: hidden;
 }
 .moveBottom ul li img{
 	width: 100%;
+}
+.moveBottom ul li img:hover{
+	transition: 1.5s;
+	transform: scale(1.4);
 }
 /*更多案例开始*/
 .manyCase p{
@@ -109,6 +120,10 @@ img{
 	width: 47%;
 	border: 1px solid #1470cd;
 	box-sizing: border-box;
+}
+.caseBottom ul li img:hover{
+	transform: rotate(720deg);
+	transition: 1.1s;
 }
 .caseBottom ul li p{
 	width: 75%;

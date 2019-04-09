@@ -90,6 +90,20 @@ img{
 .ManyPictures ul li{
 	width: 32%;
 	background: #ffffff;
+	position: relative;
+}
+.ManyPictures ul li a img:nth-child(2){
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.ManyPictures ul li a img:nth-child(2):hover{
+	transform: rotateY(180deg);
+	backface-visibility: hidden;
+	transition: 1.5s;
+}
+.ManyPictures ul li img:hover{
+	
 }
 .ManyPictures ul li i{
 	color: #dddddd;

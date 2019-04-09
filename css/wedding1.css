@@ -61,6 +61,10 @@ body{
 .sea img{
 	width: 100%;
 }
+.sea img:hover{
+	transform: rotateY(360deg) scale(1.2);
+	transition: 1.5s;
+}
 .sea p{
 	position: absolute;
 	left: 20%;
@@ -82,12 +86,10 @@ body{
 .show_bottom ul{
 	display: flex;
 	flex-wrap: wrap;
-	/*height: 800px;*/
 	justify-content: space-around;
 }
 .show_bottom ul li{
 	width: 32%;
-	/*height: ;*/
 	padding: 10px 0;
 }
 .show_bottom ul li p:hover{
@@ -95,6 +97,10 @@ body{
 }
 .show_bottom ul li img{
 	width: 100%;
+}
+.show_bottom ul li img:hover{
+	transform: rotateY(180deg);
+	transition: all 1.2s;
 }
 .show_bottom ul li p{
 	font-size: 1.7vw;
@@ -128,12 +134,19 @@ body{
 /*大图开始*/
 .bigPic ul li{
 	width: 100%;
+	overflow: hidden;
 }
 .bigPic ul li:hover{
 	color: #cdac5f;
 }
 .bigPic ul li img{
 	width: 100%;
+}
+.bigPic ul li img:hover{
+	transform-style: preserve-3d;
+	/*transform: ;*/
+	transform: translate(0,-30%);
+	transition: 1.5s;
 }
 .bigPic ul li p:nth-child(2){
 	padding: 10px;

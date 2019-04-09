@@ -71,7 +71,6 @@ body{
 }
 .computer b{
 	width: 2%;
-	/*height: 35px;*/
 	margin-left: 4%;
 	margin-right: 2%;
 	background: #0099ff;
@@ -147,12 +146,18 @@ body{
 .show ul li{
 	width: 48%;
 	padding-bottom: 10px;
+	overflow: hidden;
+}
+.show ul li img:hover{
+	transform: scale(1.2);
+	transition: 1.4s;
 }
 .show ul li p{
 	background: white;
 	font-size: 1.7vw;
 	padding: 17px;
 	text-align: center;
+	z-index: 100;
 }
 /*设计团队下面图片*/
 .assign ul{
@@ -166,13 +171,24 @@ body{
 .assign ul li{
 	width: 33%;
 	margin-bottom: 10px;
+	perspective: 1000px;
+	transform-style: preserve-3d;
+	overflow: hidden;
+}
+.assign ul li img:hover{
+	transition: 1s;
+	transform: translateZ(120px)
 }
 .assign ul li p{
 	text-align: center;
 	font-size: 1vw;
 	color: #666666;
 	padding: 6px 0;
+	z-index: 100;
 	background: #082855;
+}
+.assign ul li p:hover{
+	color: cadetblue;
 }
 /*家装知识下面图片部分*/
 .knowledge ul{

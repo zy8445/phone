@@ -57,10 +57,15 @@ body{
 	margin-top: 10px;
 	padding: 20px 0;
 	border-bottom: 1px dashed #dddddd;
+	position: relative;
 }
 .company ul li a{
 	text-decoration: none;
 	color: #666666;
+}
+.company ul li:hover{
+	transition: all 1s;
+	transform: translate(15%);
 }
 .company ul li a span:nth-child(1){
 	margin-left: 2%;

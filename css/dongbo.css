@@ -4,7 +4,7 @@
 	list-style:none;
 }
 body{
-	background: #ffffff;
+	background: #efeded;
 }
 img{
 	width: 100%;
@@ -16,6 +16,7 @@ img{
 	margin: 0 auto;
 	max-width: 640px;
 	min-width: 320px;
+	background: #ffffff;
 }
 .header{
 	width: 100%;
@@ -42,6 +43,17 @@ img{
 }
 .donglibo{
 	margin: 20px 0 0;
+	position: relative;
+}
+.donglibo img:nth-child(2){
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.donglibo img:hover{
+	transition: 1.5s;
+	transform: rotateY(180deg);
+	backface-visibility: hidden;
 }
 .getBaojia{
 	margin: 10px auto;
@@ -87,6 +99,11 @@ img{
 .video li{
 	width: 47%;
 	margin-bottom: 10px;
+	overflow: hidden;
+}
+.video li img:hover{
+	transform: scale(1.2);
+	transition: 1.4s;
 }
 .video li p{
 	font-size: 1.5vw;
